@@ -4,7 +4,9 @@
 // import UseStateExample from "@/components/React_useState/UseStateExample"
 // import UseContextExample from "./UseContextExample/page";
 
-import UseRefExample from "@/components/React_useRef/UseRefExample";
+import ItemList from "@/components/React_Generics/itemList";
+
+// import UseRefExample from "@/components/React_useRef/UseRefExample";
 
 export default function Home() {
   return (
@@ -14,7 +16,8 @@ export default function Home() {
       {/* <EventExample/> */}
       {/* <UseStateExample/> */}
       {/* <UseContextExample/> */}
-      <UseRefExample/>
+      {/* <UseRefExample/> */}
+      <ItemList/>
     </div>
   );
 }
