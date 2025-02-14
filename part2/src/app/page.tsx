@@ -4,7 +4,9 @@
 // import UseStateExample from "@/components/React_useState/UseStateExample"
 // import UseContextExample from "./UseContextExample/page";
 
-import ItemList from "@/components/React_Generics/itemList";
+import ShapeList from "@/components/CombinedType_Exclude/ShapeList";
+
+// import ItemList from "@/components/React_Generics/itemList";
 
 // import UseRefExample from "@/components/React_useRef/UseRefExample";
 
@@ -17,7 +19,8 @@ export default function Home() {
       {/* <UseStateExample/> */}
       {/* <UseContextExample/> */}
       {/* <UseRefExample/> */}
-      <ItemList/>
+      {/* <ItemList/> */}
+      <ShapeList/>
     </div>
   );
 }
