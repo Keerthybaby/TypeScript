@@ -1,7 +1,8 @@
 // import PostList from "@/components/React_props/PostList";
 // import ChildrenPropexample from "@/components/React_Events/ChildrenPropexample/ChildrenPropexample";
 // import EventExample from "@/components/React_Events/EventExample/EventExample";
-import UseStateExample from "@/components/React_useState/UseStateExample"
+// import UseStateExample from "@/components/React_useState/UseStateExample"
+import UseContextExample from "./UseContextExample/page";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       {/* <PostList /> */}
       {/* <ChildrenPropexample /> */}
       {/* <EventExample/> */}
-      <UseStateExample/>
+      {/* <UseStateExample/> */}
+      <UseContextExample/>
     </div>
   );
 }
