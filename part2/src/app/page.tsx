@@ -2,7 +2,9 @@
 // import ChildrenPropexample from "@/components/React_Events/ChildrenPropexample/ChildrenPropexample";
 // import EventExample from "@/components/React_Events/EventExample/EventExample";
 // import UseStateExample from "@/components/React_useState/UseStateExample"
-import UseContextExample from "./UseContextExample/page";
+// import UseContextExample from "./UseContextExample/page";
+
+import UseRefExample from "@/components/React_useRef/UseRefExample";
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       {/* <ChildrenPropexample /> */}
       {/* <EventExample/> */}
       {/* <UseStateExample/> */}
-      <UseContextExample/>
+      {/* <UseContextExample/> */}
+      <UseRefExample/>
     </div>
   );
 }
